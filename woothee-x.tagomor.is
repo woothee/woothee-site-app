@@ -1,0 +1,111 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName woothee-ruby.tagomor.is
+    DocumentRoot /var/www/
+    <Directory />
+        Options FollowSymLinks
+        AllowOverride None
+    </Directory>
+    <Directory /var/www/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride None
+        Order allow,deny
+        allow from all
+    </Directory>
+
+    HostnameLookups Off
+    ErrorLog /var/log/apache2/error.log
+
+    LogLevel warn
+    CustomLog /var/log/apache2/woothee.access.log vhost_combined
+    ServerSignature On
+
+    ProxyRequests Off
+
+    ProxyPass        / http://localhost:8081/
+    ProxyPassReverse / http://localhost:8081/
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName woothee-jruby.tagomor.is
+    DocumentRoot /var/www/
+    <Directory />
+        Options FollowSymLinks
+        AllowOverride None
+    </Directory>
+    <Directory /var/www/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride None
+        Order allow,deny
+        allow from all
+    </Directory>
+
+    HostnameLookups Off
+    ErrorLog /var/log/apache2/error.log
+
+    LogLevel warn
+    CustomLog /var/log/apache2/woothee.access.log vhost_combined
+    ServerSignature On
+
+    ProxyRequests Off
+
+    ProxyPass        / http://localhost:8082/
+    ProxyPassReverse / http://localhost:8082/
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName woothee-perl.tagomor.is
+    DocumentRoot /var/www/
+    <Directory />
+        Options FollowSymLinks
+        AllowOverride None
+    </Directory>
+    <Directory /var/www/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride None
+        Order allow,deny
+        allow from all
+    </Directory>
+
+    HostnameLookups Off
+    ErrorLog /var/log/apache2/error.log
+
+    LogLevel warn
+    CustomLog /var/log/apache2/woothee.access.log vhost_combined
+    ServerSignature On
+
+    ProxyRequests Off
+
+    ProxyPass        / http://localhost:8083/
+    ProxyPassReverse / http://localhost:8083/
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName woothee-node.tagomor.is
+    DocumentRoot /var/www/
+    <Directory />
+        Options FollowSymLinks
+        AllowOverride None
+    </Directory>
+    <Directory /var/www/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride None
+        Order allow,deny
+        allow from all
+    </Directory>
+
+    HostnameLookups Off
+    ErrorLog /var/log/apache2/error.log
+
+    LogLevel warn
+    CustomLog /var/log/apache2/woothee.access.log vhost_combined
+    ServerSignature On
+
+    ProxyRequests Off
+
+    ProxyPass        / http://localhost:8084/
+    ProxyPassReverse / http://localhost:8084/
+</VirtualHost>
