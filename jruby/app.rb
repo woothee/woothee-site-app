@@ -11,5 +11,5 @@ end
 get '/parse' do
   ua = params[:ua]
   ua ||= request.user_agent
-  json Java::IsTagomorWoothee::Classifier.parse(ua)
+  json Java::IsTagomorWoothee::Classifier.parse(ua).to_hash
 end
