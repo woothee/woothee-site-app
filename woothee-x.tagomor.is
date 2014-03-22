@@ -21,6 +21,7 @@
     ServerSignature On
 
     ProxyRequests Off
+    Header set Access-Control-Allow-Origin "*"
 
     ProxyPass        / http://localhost:8081/
     ProxyPassReverse / http://localhost:8081/
@@ -49,6 +50,7 @@
     ServerSignature On
 
     ProxyRequests Off
+    Header set Access-Control-Allow-Origin "*"
 
     ProxyPass        / http://localhost:8082/
     ProxyPassReverse / http://localhost:8082/
@@ -77,6 +79,7 @@
     ServerSignature On
 
     ProxyRequests Off
+    Header set Access-Control-Allow-Origin "*"
 
     ProxyPass        / http://localhost:8083/
     ProxyPassReverse / http://localhost:8083/
@@ -105,6 +108,7 @@
     ServerSignature On
 
     ProxyRequests Off
+    Header set Access-Control-Allow-Origin "*"
 
     ProxyPass        / http://localhost:8084/
     ProxyPassReverse / http://localhost:8084/
