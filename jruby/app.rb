@@ -13,3 +13,13 @@ get '/parse' do
   ua ||= request.user_agent
   json Java::IsTagomorWoothee::Classifier.parse(ua).to_hash
 end
+
+get '/api' do
+  ua = params[:ua]
+  ua ||= request.user_agent
+  data = {
+    version: Java::IsTagomorWoothee::Classifier.VERSION,
+    result: Java::IsTagomorWoothee::Classifier.parse(ua).to_hash
+  }
+  json data
+end

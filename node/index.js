@@ -43,4 +43,12 @@ app.get('/parse', function(req, res){
   res.send(woothee.parse(req.query.ua || req.get('User-Agent')));
 });
 
+app.get('/api', function(req, res){
+  var data = {
+    version: woothee.VERSION,
+    result: woothee.parse(req.query.ua || req.get('User-Agent'))
+  };
+  res.send(data);
+});
+
 app.listen(app.get('port'));

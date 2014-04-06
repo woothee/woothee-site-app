@@ -21,4 +21,16 @@ get '/parse' => sub {
     $c->render_json( Woothee->parse( $result->valid->get('ua') ) );
 };
 
+get '/api' => sub {
+    my ( $self, $c ) = @_;
+    my $result = $c->req->validator([
+        'ua' => { default => $c->req->user_agent, }
+      ]);
+    my $data = +{
+        version => $Woothee::VERSION,
+        result => Woothee->parse( $result->valid->get('ua') )
+      };
+    $c->render_json($data);
+};
+
 1;
