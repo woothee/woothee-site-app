@@ -1085,18 +1085,18 @@ DISTRIBUTIONS
       Fcntl 0
       URI 1.10
       perl 5.008001
-  Woothee-0.3.8
-    pathname: T/TA/TAGOMORIS/Woothee-0.3.8.tar.gz
+  Woothee-0.4.0
+    pathname: T/TA/TAGOMORIS/Woothee-0.4.0.tar.gz
     provides:
-      Woothee 0.003008
-      Woothee::Appliance 0.003008
-      Woothee::Browser 0.003008
-      Woothee::Crawler 0.003008
+      Woothee 0.004000
+      Woothee::Appliance 0.004000
+      Woothee::Browser 0.004000
+      Woothee::Crawler 0.004000
       Woothee::DataSet undef
-      Woothee::Misc 0.003008
-      Woothee::MobilePhone 0.003008
-      Woothee::OS 0.003008
-      Woothee::Util 0.003008
+      Woothee::Misc 0.004000
+      Woothee::MobilePhone 0.004000
+      Woothee::OS 0.004000
+      Woothee::Util 0.004000
     requirements:
       CPAN::Meta 0
       CPAN::Meta::Prereqs 0

@@ -2,9 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     backports (3.6.0)
-    childprocess (0.5.1)
+    childprocess (0.5.2)
       ffi (~> 1.0, >= 1.0.11)
     choice (0.1.6)
+    ffi (1.9.3)
     ffi (1.9.3-java)
     mizuno (0.6.6)
       childprocess (>= 0.2.6)
@@ -32,6 +33,7 @@ GEM
 
 PLATFORMS
   java
+  ruby
 
 DEPENDENCIES
   mizuno
