@@ -2,6 +2,7 @@
 
 ### DevServer
 
+1. update and commit `python/woothee`
 1. `~/tmp/google_appengine/dev_appserver.py python/`
 1. open http://localhost:8080
 
