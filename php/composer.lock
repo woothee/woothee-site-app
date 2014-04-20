@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "b836fa780684d6038e2c0dae8acdd871",
+    "packages": [
+        {
+            "name": "woothee/woothee",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/woothee/woothee-php.git",
+                "reference": "d927ac9266d0f5fcbc4dd5126c38efa8eb595bf5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/woothee/woothee-php/zipball/d927ac9266d0f5fcbc4dd5126c38efa8eb595bf5",
+                "reference": "d927ac9266d0f5fcbc4dd5126c38efa8eb595bf5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.3"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "0.4.*",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master",
+                "symfony/yaml": "2.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Woothee\\": "src/Woothee/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Yuya Takeyama",
+                    "email": "sign.of.the.wolf.pentagram@gmail.com",
+                    "homepage": "http://yuyat.jp"
+                }
+            ],
+            "description": "Cross-language UserAgent classifier library, PHP implementation",
+            "keywords": [
+                "user agent",
+                "useragent"
+            ],
+            "time": "2014-04-06 07:52:16"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "woothee/woothee": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

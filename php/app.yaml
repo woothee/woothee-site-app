@@ -1,0 +1,11 @@
+application: woothee-demo
+version: php
+runtime: php
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /parse.*
+  script: app.php
+- url: /api.*
+  script: api.php
