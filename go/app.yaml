@@ -1,0 +1,23 @@
+application: woothee-demo
+version: go
+runtime: go
+api_version: go1
+
+# https://developers.google.com/appengine/docs/go/gettingstarted/helloworld
+
+# Every request to a URL whose path matches the regular expression /.* (all URLs)
+# should be handled by the Go program. The _go_app value is a magic string recognized
+# by the development web server; it is ignored by the production App Engine servers.
+
+handlers:
+- url: /.*
+  script: _go_app
+
+# Note: the Go SDK does things differently than the Python and Java SDKs:
+# all Go packages for a given app are built into a single executable, and
+# request dispatch is handled by the Go program itself.
+# This is why we call http.HandleFunc inside the init function to associate our handler
+# with the web root ("/").
+
+# However, you may still use the app.yaml file to configure paths
+# that serve static files or require special permissions.
