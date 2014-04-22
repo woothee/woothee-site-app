@@ -1,15 +1,21 @@
 # Server side demo apps of woothee.github.io
 
-Currently, this demo apps are hosted on `woothee.tagomor.is`.
+Hosted sites:
 
-* TODO:
-  * Python: not implemented now
-  * PHP: not implemented now
-  * Java: port from jruby to pure java
+ * Demo page: `woothee.github.io`
+ * Demo apps:
+   * Perl: `woothee-perl.tagomor.is`
+   * Ruby: `woothee-ruby.tagomor.is`
+   * JRuby: `woothee-jruby.tagomor.is`
+   * Node.js: `woothee-node.tagomor.is`
+   * Java: `java.woothee-demo.appspot.com`
+   * Python: `python.woothee-demo.appspot.com`
+   * PHP: `php.woothee-demo.appspot.com`
+   * Go: `go.woothee-demo.appspot.com`
 
 ## Deployment
 
-TBD
+See sub directories.
 
 ## License
 
