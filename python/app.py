@@ -26,12 +26,12 @@ class WootheeDemoAppApi(webapp2.RequestHandler):
         self.response.headers['Access-Control-Allow-Origin'] = '*'
         self.response.content_type = 'application/json'
         data = {
-            "version": "unknown",
+            "version": woothee.__version__,
             "result": woothee.parse(ua),
         }
         self.response.write(json.dumps(data))
 
 application = webapp2.WSGIApplication([
     ('/parse', WootheeDemoAppParse),
-    # ('/api', WootheeDemoAppApi),
+    ('/api', WootheeDemoAppApi),
 ], debug=True)
