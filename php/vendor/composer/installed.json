@@ -6,12 +6,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/woothee/woothee-php.git",
-            "reference": "d927ac9266d0f5fcbc4dd5126c38efa8eb595bf5"
+            "reference": "d1a29e7890e6acf52bc7491ae5c7e62449599381"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/woothee/woothee-php/zipball/d927ac9266d0f5fcbc4dd5126c38efa8eb595bf5",
-            "reference": "d927ac9266d0f5fcbc4dd5126c38efa8eb595bf5",
+            "url": "https://api.github.com/repos/woothee/woothee-php/zipball/d1a29e7890e6acf52bc7491ae5c7e62449599381",
+            "reference": "d1a29e7890e6acf52bc7491ae5c7e62449599381",
             "shasum": ""
         },
         "require": {
@@ -23,7 +23,7 @@
             "satooshi/php-coveralls": "dev-master",
             "symfony/yaml": "2.4.*"
         },
-        "time": "2014-04-06 07:52:16",
+        "time": "2014-04-25 07:54:50",
         "type": "library",
         "installation-source": "source",
         "autoload": {

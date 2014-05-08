@@ -772,11 +772,11 @@ DISTRIBUTIONS
       Scope::Guard 0
       Test::TCP 2.00
       perl 5.008
-  Starlet-0.21
-    pathname: K/KA/KAZUHO/Starlet-0.21.tar.gz
+  Starlet-0.23
+    pathname: K/KA/KAZUHO/Starlet-0.23.tar.gz
     provides:
       Plack::Handler::Starlet undef
-      Starlet 0.21
+      Starlet 0.23
       Starlet::Server undef
     requirements:
       ExtUtils::MakeMaker 6.42
@@ -1085,18 +1085,18 @@ DISTRIBUTIONS
       Fcntl 0
       URI 1.10
       perl 5.008001
-  Woothee-0.4.0
-    pathname: T/TA/TAGOMORIS/Woothee-0.4.0.tar.gz
+  Woothee-0.4.1
+    pathname: T/TA/TAGOMORIS/Woothee-0.4.1.tar.gz
     provides:
-      Woothee 0.004000
-      Woothee::Appliance 0.004000
-      Woothee::Browser 0.004000
-      Woothee::Crawler 0.004000
+      Woothee 0.004001
+      Woothee::Appliance 0.004001
+      Woothee::Browser 0.004001
+      Woothee::Crawler 0.004001
       Woothee::DataSet undef
-      Woothee::Misc 0.004000
-      Woothee::MobilePhone 0.004000
-      Woothee::OS 0.004000
-      Woothee::Util 0.004000
+      Woothee::Misc 0.004001
+      Woothee::MobilePhone 0.004001
+      Woothee::OS 0.004001
+      Woothee::Util 0.004001
     requirements:
       CPAN::Meta 0
       CPAN::Meta::Prereqs 0
