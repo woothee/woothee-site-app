@@ -5,7 +5,11 @@ import json
 
 import os
 import sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'woothee', 'lib'))
+
+from google.appengine.ext import vendor
+# Add any libraries installed in the "lib" folder.
+# by `pip install -t lib woothee`
+vendor.add('lib')
 
 import woothee
 

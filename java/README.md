@@ -1,4 +1,4 @@
-# Woothee demo app python
+# Woothee demo app Java
 
 ### DevServer
 

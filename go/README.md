@@ -1,7 +1,8 @@
 # Woothee demo app go
 
 do at first
- * `export GOROOT=/usr/local/go/bin/go`
+ * Install google appengine go sdk to `~/tmp/go_appengine`
+ * `export GOROOT=/usr/local/go`
  * `export PATH=/usr/local/go/bin:~/tmp/go_appengine:$PATH`
  * `export GOPATH=~/tmp/gomodules`
 
@@ -13,5 +14,5 @@ do at first
 
 ### Upload
 
-1. `goapp deploy -oauth go`
+1. `appcfg.py -A woothee-demo update .`
 1. check http://go.woothee-demo.appspot.com/parse

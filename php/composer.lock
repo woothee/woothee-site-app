@@ -12,22 +12,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/woothee/woothee-php.git",
-                "reference": "0e897fe3d291dab5d810b1612ca02beff469e9af"
+                "reference": "5ade5056b176beadc62f5b51f360be6c9f3268b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woothee/woothee-php/zipball/0e897fe3d291dab5d810b1612ca02beff469e9af",
-                "reference": "0e897fe3d291dab5d810b1612ca02beff469e9af",
+                "url": "https://api.github.com/repos/woothee/woothee-php/zipball/5ade5056b176beadc62f5b51f360be6c9f3268b5",
+                "reference": "5ade5056b176beadc62f5b51f360be6c9f3268b5",
                 "shasum": ""
             },
             "require": {
                 "php": ">= 5.3.3"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": ">=0.4.0",
-                "phpunit/phpunit": ">=4.1.0",
-                "satooshi/php-coveralls": ">=0.6.0",
-                "symfony/yaml": ">=2.4.0"
+                "fabpot/php-cs-fixer": "1.10.*",
+                "phpunit/phpunit": "4.8.*",
+                "satooshi/php-coveralls": "0.6.*",
+                "symfony/yaml": "2.7.*"
             },
             "type": "library",
             "autoload": {
@@ -50,7 +50,7 @@
                 "user agent",
                 "useragent"
             ],
-            "time": "2015-03-01 10:47:45"
+            "time": "2015-12-16 06:47:16"
         }
     ],
     "packages-dev": [],

@@ -1,6 +1,6 @@
 application: woothee-demo
 version: php
-runtime: php
+runtime: php55
 api_version: 1
 threadsafe: true
 

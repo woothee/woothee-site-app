@@ -1,6 +1,3 @@
 [submodule "site"]
 	path = site
 	url = git@github.com:woothee/woothee.github.io.git
-[submodule "python/woothee"]
-	path = python/woothee
-	url = https://github.com/woothee/woothee-python
