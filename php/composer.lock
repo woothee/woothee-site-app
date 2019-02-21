@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "b836fa780684d6038e2c0dae8acdd871",
+    "content-hash": "40139280f57eadf00cb1b6fb161ccad4",
     "packages": [
         {
             "name": "woothee/woothee",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/woothee/woothee-php.git",
-                "reference": "5ade5056b176beadc62f5b51f360be6c9f3268b5"
+                "reference": "8b7d9f5423e990598dc90d381202356ea10aef9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woothee/woothee-php/zipball/5ade5056b176beadc62f5b51f360be6c9f3268b5",
-                "reference": "5ade5056b176beadc62f5b51f360be6c9f3268b5",
+                "url": "https://api.github.com/repos/woothee/woothee-php/zipball/8b7d9f5423e990598dc90d381202356ea10aef9a",
+                "reference": "8b7d9f5423e990598dc90d381202356ea10aef9a",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 "user agent",
                 "useragent"
             ],
-            "time": "2015-12-16 06:47:16"
+            "time": "2018-09-24T15:11:07+00:00"
         }
     ],
     "packages-dev": [],
