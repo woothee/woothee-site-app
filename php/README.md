@@ -10,5 +10,5 @@
 
 ### Upload
 
-1. `/usr/local/google_appengine/appcfg.py update .`
+1. `gcloud app deploy --project woothee-demo --version php`
 1. check http://php.woothee-demo.appspot.com/api
