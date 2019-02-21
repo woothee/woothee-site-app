@@ -2,7 +2,7 @@
 
 ### DevServer
 
-1. update and commit `pip install -t lib woothee`
+1. update and commit `pip install -t lib woothee --upgrade`
 1. `/usr/local/google_appengine/dev_appserver.py .`
 1. open http://localhost:8080
 
