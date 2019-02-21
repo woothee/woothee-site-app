@@ -2,8 +2,7 @@
 
 ### To update woothee
 
-edit `go.mod` and build `go build`
-
+edit `go.mod` (and version number in `main.go`) and build `go build`
 
 ### DevServer
 
