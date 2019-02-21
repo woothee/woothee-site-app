@@ -10,8 +10,8 @@ from . import crawler
 from . import appliance
 from . import misc
 
-VERSION = (1, 3, 0)
-__version__ = '1.3.0'
+VERSION = (1, 8, 0)
+__version__ = '1.8.0'
 
 FILLED = {
     dataset.ATTRIBUTE_NAME: dataset.VALUE_UNKNOWN,
@@ -28,8 +28,7 @@ def parse(useragent):
 
 
 def is_crawler(useragent):
-    return useragent and useragent != '-'\
-        and try_crawler(useragent, {})
+    return useragent and useragent != '-' and try_crawler(useragent, {})
 
 
 def exec_parse(useragent):
@@ -73,6 +72,10 @@ def try_crawler(useragent, result):
 
 def try_browser(useragent, result):
     if browser.challenge_msie(useragent, result):
+        return True
+    if browser.challenge_vivaldi(useragent, result):
+        return True
+    if browser.challenge_yandexbrowser(useragent, result):
         return True
     if browser.challenge_safari_chrome(useragent, result):
         return True

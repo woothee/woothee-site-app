@@ -42,7 +42,7 @@ DATASET = {}
 
 
 def _init():
-    # GENERATED from dataset.yaml at Sun Aug 16 17:00:09 2015 by tell_k
+    # GENERATED from dataset.yaml at Wed Jul  4 23:02:52 2018 by hattori
     obj = {'label': 'MSIE', 'name': 'Internet Explorer', 'type': 'browser'}  # NOQA
     obj['vendor'] = 'Microsoft'
     DATASET[obj['label']] = obj
@@ -61,11 +61,17 @@ def _init():
     obj = {'label': 'Opera', 'name': 'Opera', 'type': 'browser'}  # NOQA
     obj['vendor'] = 'Opera'
     DATASET[obj['label']] = obj
+    obj = {'label': 'Vivaldi', 'name': 'Vivaldi', 'type': 'browser'}  # NOQA
+    obj['vendor'] = 'Vivaldi Technologies'
+    DATASET[obj['label']] = obj
     obj = {'label': 'Sleipnir', 'name': 'Sleipnir', 'type': 'browser'}  # NOQA
     obj['vendor'] = 'Fenrir Inc.'
     DATASET[obj['label']] = obj
     obj = {'label': 'Webview', 'name': 'Webview', 'type': 'browser'}  # NOQA
     obj['vendor'] = 'OS vendor'
+    DATASET[obj['label']] = obj
+    obj = {'label': 'YaBrowser', 'name': 'Yandex Browser', 'type': 'browser'}  # NOQA
+    obj['vendor'] = 'Yandex'
     DATASET[obj['label']] = obj
     obj = {'label': 'Win', 'name': 'Windows UNKNOWN Ver', 'type': 'os'}  # NOQA
     obj['category'] = 'pc'
@@ -292,6 +298,9 @@ def _init():
     obj = {'label': 'bingbot', 'name': 'bingbot', 'type': 'full'}  # NOQA
     obj['category'] = 'crawler'
     DATASET[obj['label']] = obj
+    obj = {'label': 'BingPreview', 'name': 'BingPreview', 'type': 'full'}  # NOQA
+    obj['category'] = 'crawler'
+    DATASET[obj['label']] = obj
     obj = {'label': 'Yeti', 'name': 'Naver Yeti', 'type': 'full'}  # NOQA
     obj['category'] = 'crawler'
     DATASET[obj['label']] = obj
@@ -302,6 +311,9 @@ def _init():
     obj['category'] = 'crawler'
     DATASET[obj['label']] = obj
     obj = {'label': 'twitter', 'name': 'twitter', 'type': 'full'}  # NOQA
+    obj['category'] = 'crawler'
+    DATASET[obj['label']] = obj
+    obj = {'label': 'trendictionbot', 'name': 'trendiction', 'type': 'full'}  # NOQA
     obj['category'] = 'crawler'
     DATASET[obj['label']] = obj
     obj = {'label': 'mixi', 'name': 'mixi', 'type': 'full'}  # NOQA
@@ -340,6 +352,7 @@ def _init():
     obj = {'label': 'VariousCrawler', 'name': 'misc crawler', 'type': 'full'}  # NOQA
     obj['category'] = 'crawler'
     DATASET[obj['label']] = obj
+
 
 _init()
 

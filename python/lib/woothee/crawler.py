@@ -76,6 +76,10 @@ def challenge_crawlers(ua, result):
             util.update_map(result, dataset.get('bingbot'))
             return True
 
+    if 'BingPreview' in ua:
+        util.update_map(result, dataset.get('BingPreview'))
+        return True
+
     if 'Baidu' in ua:
         if 'compatible; Baiduspider' in ua\
                 or 'Baiduspider+' in ua or 'Baiduspider-image+' in ua:
@@ -83,7 +87,10 @@ def challenge_crawlers(ua, result):
             return True
 
     if 'Yeti' in ua:
-        if 'http://help.naver.com/robots' in ua:
+        if 'http://help.naver.com/robots' in ua\
+                or 'http://naver.me/bot' in ua\
+                or 'http://help.naver.com/support/robots.html' in ua:
+
             util.update_map(result, dataset.get('Yeti'))
             return True
 
@@ -150,6 +157,10 @@ def challenge_crawlers(ua, result):
         if 'compatible; Indy Library' in ua:
             util.update_map(result, dataset.get('IndyLibrary'))
             return True
+
+    if 'trendictionbot' in ua:
+        util.update_map(result, dataset.get('trendictionbot'))
+        return True
 
     return False
 
