@@ -1,15 +1,26 @@
-package wootheedemo
+package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"github.com/woothee/woothee-go"
+	"log"
 	"net/http"
 	"net/url"
-	"encoding/json"
-	"github.com/woothee/woothee-go"
+	"os"
 )
 
-func init() {
+func main() {
 	http.HandleFunc("/parse", parse)
+
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+		log.Printf("Defaulting to port %s", port)
+	}
+
+	log.Printf("Listening on port %s", port)
+	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%s", port), nil))
 }
 
 func parse(w http.ResponseWriter, r *http.Request) {
