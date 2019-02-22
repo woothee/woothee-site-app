@@ -3,4 +3,3 @@ source 'https://rubygems.org'
 gem "sinatra"
 gem "sinatra-contrib"
 gem "woothee", "= 1.8.0"
-gem "unicorn"
