@@ -5,6 +5,16 @@ use Mojolicious::Lite;
 use JSON;
 use Woothee;
 
+get '/' => sub {
+    my $self = shift;
+    $self->render('ok');
+};
+
+get '/_ah/health' => sub {
+    my $self = shift;
+    $self->render('ok');
+};
+
 get '/parse' => sub {
     my $self = shift;
     my $ua = $self->param('ua');
