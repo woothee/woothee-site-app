@@ -1,7 +1,0 @@
-requires 'Kossy';
-requires 'JSON::XS';
-requires 'Plack::Builder';
-requires 'Plack::Middleware::Static';
-requires 'Woothee';
-requires 'Starlet';
-
