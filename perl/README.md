@@ -1,8 +1,4 @@
-# How to deploy
+# How to update/deploy
 
-## on production site
-
-```
-rm -rf local
-carton install
-```
+1. update Woothee version in Dockerfile
+1. `gcloud app deploy --project woothee-demo --version perl`
