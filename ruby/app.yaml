@@ -1,5 +1,6 @@
 runtime: ruby
 env: flex
+service: ruby-demo
 entrypoint: bundle exec ruby app.rb
 
 manual_scaling:

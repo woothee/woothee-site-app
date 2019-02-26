@@ -12,5 +12,5 @@ edit `go.mod` (and version number in `main.go`) and build `go build`
 
 ### Upload
 
-1. `gcloud app deploy --project woothee-demo --version go`
+1. `gcloud app deploy --project woothee-demo`
 1. check http://go.woothee-demo.appspot.com/parse

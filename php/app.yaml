@@ -1,4 +1,5 @@
 runtime: php55
+service: php-demo
 api_version: 1
 threadsafe: true
 
