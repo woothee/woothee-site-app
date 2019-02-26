@@ -7,12 +7,12 @@ use Woothee;
 
 get '/' => sub {
     my $self = shift;
-    $self->render('ok');
+    $self->render(text => 'ok');
 };
 
 get '/_ah/health' => sub {
     my $self = shift;
-    $self->render('ok');
+    $self->render(text => 'ok');
 };
 
 get '/parse' => sub {
