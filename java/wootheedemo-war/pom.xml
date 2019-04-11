@@ -16,18 +16,8 @@
   <properties>
     <appengine.app.version>java</appengine.app.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jackson.version>2.3.3</jackson.version>
+    <jackson.version>2.9.8</jackson.version>
   </properties>
-
-  <repositories>
-    <repository>
-      <id>codehaus</id>
-      <url>http://repo1.maven.org/maven2/com/fasterxml/jackson/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-    </repository>
-  </repositories>
 
   <dependencies>
     <!-- Compile/runtime dependencies -->
@@ -88,10 +78,10 @@
     <!-- woothee -->
     <dependency>
       <groupId>is.tagomor.woothee</groupId>
-      <artifactId>woothee</artifactId>
-      <version>0.4.0</version>
-      <scope>system</scope>
-      <systemPath>${basedir}/lib/woothee.jar</systemPath>
+      <artifactId>woothee-java</artifactId>
+      <version>1.10.1</version>
+      <type>jar</type>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 
