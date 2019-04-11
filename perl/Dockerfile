@@ -1,6 +1,6 @@
 FROM perl:latest
 
-RUN curl -L https://cpanmin.us | perl - -M https://cpan.metacpan.org -n Mojolicious JSON TAGOMORIS/Woothee-1.8.0.tar.gz
+RUN curl -L https://cpanmin.us | perl - -M https://cpan.metacpan.org -n Mojolicious JSON TAGOMORIS/Woothee-v1.10.0.tar.gz
 
 ENV MOJO_LISTEN http://*:8080
 EXPOSE 8080
