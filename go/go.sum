@@ -2,3 +2,5 @@ github.com/woothee/woothee-go v0.4.2 h1:nLfYXgr2V4qbQxxs2mi4VGpcEllCYTc4D4S5BtAi
 github.com/woothee/woothee-go v0.4.2/go.mod h1:a0pT64ufV86KESTfyu3Pjf0rV+8BORAna5whEy2Wazg=
 github.com/woothee/woothee-go v1.8.0 h1:wcb5oBu0gxis3bzrpmC4hxfqKdPeVgzrw0w8GUd8h0M=
 github.com/woothee/woothee-go v1.8.0/go.mod h1:a0pT64ufV86KESTfyu3Pjf0rV+8BORAna5whEy2Wazg=
+github.com/woothee/woothee-go v1.10.0 h1:8Av3rtXpQgs9wciBufqRyyNzt36sALDLIZLFbJrY8qs=
+github.com/woothee/woothee-go v1.10.0/go.mod h1:a0pT64ufV86KESTfyu3Pjf0rV+8BORAna5whEy2Wazg=

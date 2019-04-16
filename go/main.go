@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	WootheeVersion = "1.8.0"
+	WootheeVersion = "1.10.0"
 )
 
 type ApiResponse struct {
