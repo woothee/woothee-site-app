@@ -39,11 +39,11 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', function(req, res){
-  res.redirect('/index.html');
+  res.send('ok')
 });
 
 app.get('/parse', function(req, res){
-    res.json(woothee.parse(req.query.ua || req.get('User-Agent')));
+  res.json(woothee.parse(req.query.ua || req.get('User-Agent')));
 });
 
 app.get('/api', function(req, res){

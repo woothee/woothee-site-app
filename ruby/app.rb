@@ -6,10 +6,6 @@ get '/' do
   'ok'
 end
 
-get '/_ah/health' do
-  'ok'
-end
-
 get '/parse' do
   ua = params[:ua]
   ua ||= request.user_agent

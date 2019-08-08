@@ -33,6 +33,10 @@ func main() {
 	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%s", port), nil))
 }
 
+func top(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, "ok")
+}
+
 func parse(w http.ResponseWriter, r *http.Request) {
 	agent := r.UserAgent()
 	m, _ := url.ParseQuery(r.URL.RawQuery)

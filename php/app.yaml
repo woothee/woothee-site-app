@@ -4,6 +4,8 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /
+  script: top.php
 - url: /parse.*
   script: app.php
 - url: /api.*

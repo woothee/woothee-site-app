@@ -13,6 +13,10 @@ vendor.add('lib')
 
 import woothee
 
+class WootheeDemoTop(webapp2.RequestHandler):
+    def get(self):
+        self.response.write("ok")
+
 class WootheeDemoAppParse(webapp2.RequestHandler):
     def get(self):
         ua = self.request.headers['User-Agent']
@@ -36,6 +40,7 @@ class WootheeDemoAppApi(webapp2.RequestHandler):
         self.response.write(json.dumps(data))
 
 application = webapp2.WSGIApplication([
+    ('/', WootheeDemoTop),
     ('/parse', WootheeDemoAppParse),
     ('/api', WootheeDemoAppApi),
 ], debug=True)

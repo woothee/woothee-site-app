@@ -10,11 +10,6 @@ get '/' => sub {
     $self->render(text => 'ok');
 };
 
-get '/_ah/health' => sub {
-    my $self = shift;
-    $self->render(text => 'ok');
-};
-
 get '/parse' => sub {
     my $self = shift;
     my $ua = $self->param('ua');
