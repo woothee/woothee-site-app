@@ -8,6 +8,6 @@
 
 ### Upload
 
-1. `/usr/local/google_appengine/appcfg.py update .`
-1. check http://python.woothee-demo.appspot.com/parse
+1. run `gcloud app deploy --project woothee-demo`
+1. check https://python-demo-dot-woothee-demo.appspot.com/api
 

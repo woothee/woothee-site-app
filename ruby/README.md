@@ -5,3 +5,4 @@
 1. update `Gemfile`
 1. run `bundle install` to update Gemfile.lock
 1. run `gcloud app deploy --project woothee-demo`
+1. check https://ruby-demo-dot-woothee-demo.appspot.com/api
