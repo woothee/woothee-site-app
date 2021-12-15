@@ -1,5 +1,3 @@
-application: woothee-demo
-version: python
 runtime: python27
 service: python-demo
 api_version: 1
